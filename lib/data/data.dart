@@ -1,9 +1,9 @@
 import '../models/models.dart';
 
 final User currentUser = User(
-  name: 'Marcus Ng',
+  name: 'Yosef Ayman',
   imageUrl:
-      'https://images.unsplash.com/photo-1578133671540-edad0b3d689e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+      'https://lh3.googleusercontent.com/a-/AOh14GjLOhmzsyF2ktGrvlJfSh10OQqY6ZYZolzYUHRJ=s288-p-rw-no',
 );
 
 final List<User> onlineUsers = [
@@ -167,7 +167,7 @@ final List<Story> stories = [
 final List<Post> posts = [
   Post(
     user: currentUser,
-    caption: 'Check out these cool puppers',
+    caption: 'He',
     timeAgo: '58m',
     imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
     likes: 1202,
